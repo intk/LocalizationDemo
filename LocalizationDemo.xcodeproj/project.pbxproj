@@ -13,6 +13,7 @@
 		C04AE9E61A02A6030001B1BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04AE9E51A02A6030001B1BC /* Images.xcassets */; };
 		C04AE9E91A02A6030001B1BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04AE9E71A02A6030001B1BC /* LaunchScreen.xib */; };
 		C04AE9F51A02A6030001B1BC /* LocalizationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04AE9F41A02A6030001B1BC /* LocalizationDemoTests.swift */; };
+		C054A5511A02C11400E000A7 /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = C054A5501A02C11400E000A7 /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C04AE9EE1A02A6030001B1BC /* LocalizationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04AE9F31A02A6030001B1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C04AE9F41A02A6030001B1BC /* LocalizationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDemoTests.swift; sourceTree = "<group>"; };
+		C054A5501A02C11400E000A7 /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C04AE9DB1A02A6020001B1BC /* LocalizationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C054A54F1A02C10B00E000A7 /* My Images */,
 				C04AE9DE1A02A6030001B1BC /* AppDelegate.swift */,
 				C04AE9E01A02A6030001B1BC /* ViewController.swift */,
 				C04AE9E21A02A6030001B1BC /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				C04AE9F31A02A6030001B1BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C054A54F1A02C10B00E000A7 /* My Images */ = {
+			isa = PBXGroup;
+			children = (
+				C054A5501A02C11400E000A7 /* flag.png */,
+			);
+			name = "My Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04AE9E41A02A6030001B1BC /* Main.storyboard in Resources */,
+				C054A5511A02C11400E000A7 /* flag.png in Resources */,
 				C04AE9E91A02A6030001B1BC /* LaunchScreen.xib in Resources */,
 				C04AE9E61A02A6030001B1BC /* Images.xcassets in Resources */,
 			);
@@ -405,6 +417,7 @@
 				C04AE9FA1A02A6030001B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C04AE9FB1A02A6030001B1BC /* Build configuration list for PBXNativeTarget "LocalizationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				C04AE9FD1A02A6030001B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

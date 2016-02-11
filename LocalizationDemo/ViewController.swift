@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblMovieInformation: UILabel!
+    
+    @IBOutlet weak var imgFlag: UIImageView!
+    
+    @IBOutlet weak var tblMovieInformation: UITableView!
+    
+    @IBOutlet weak var btnMoviePicker: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func showMoviesList(sender: AnyObject) {
+    
+    }
 }
 
